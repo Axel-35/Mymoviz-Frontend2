@@ -12,7 +12,7 @@ function Home() {
 
 
 useEffect(() => {
-  fetch('https://mymoviz-backend-4e1i.vercel.app')
+  fetch('https://mymoviz-backend-taupe-two.vercel.app')
     .then(response => response.json())
     .then(data => {
       if (data.movies) {
